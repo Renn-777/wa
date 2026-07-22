@@ -1,0 +1,19 @@
+{
+  "name": "sx-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot dengan sistem pairing WhatsApp (Baileys) per-user",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "github:Xrelly-stack/bails",
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.5",
+    "grammy": "1.30.0",
+    "@grammyjs/runner": "^2.0.3"
+    "pino": "^9.4.0"
+  }
+}
